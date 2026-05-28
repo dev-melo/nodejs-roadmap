@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "index.js",
-  "scripts": {},
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file .env src/index.js",
+    "watch": "node --watch --env-file .env src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dev-melo/nodejs-roadmap.git"
