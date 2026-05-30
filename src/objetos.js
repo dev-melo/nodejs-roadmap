@@ -1,5 +1,4 @@
-const player = 
-{
+const player = {
     name: "Felipe",
     health: 20,
     age: 36,

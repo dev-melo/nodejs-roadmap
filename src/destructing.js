@@ -19,8 +19,7 @@ function main2(){
 
 function main3(){
     const name = "Dev Melo"
-    const player = 
-    {
+    const player ={
         name: "Felipe",
         health: 200,
         inventory:{
